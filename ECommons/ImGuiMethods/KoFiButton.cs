@@ -7,8 +7,8 @@ namespace ECommons.ImGuiMethods;
 public static class KoFiButton
 {
     public static bool IsOfficialPlugin = false;
-    public const string Text = "Support on Ko-fi";
-    public static string DonateLink => "https://nightmarexiv.github.io/donate.html" + (IsOfficialPlugin ? "?official" : "");
+    public static string Text = "Support on Ko-fi";
+    public static string DonateLink = "https://nightmarexiv.github.io/donate.html" + (IsOfficialPlugin ? "?official" : "");
     public static void DrawRaw()
     {
         DrawButton();
